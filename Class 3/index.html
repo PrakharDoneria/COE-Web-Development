@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Making</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="inputContainer">
+        <input type="text" id="subjectInput" placeholder="Subject" />
+        <input type="number" id="test1Input" placeholder="Test 1" min="0" max="100" />
+        <input type="number" id="test2Input" placeholder="Test 2" min="0" max="100" />
+        <input type="number" id="test3Input" placeholder="Test 3" min="0" max="100" />
+        <input type="number" id="test4Input" placeholder="Test 4" min="0" max="100" />
+        <button id="addRowBtn">Add New Row</button>
+    </div>
+    <table id="dataTable">
+        <!-- HEADINGS -->
+        <tr>
+            <th>Subject</th>
+            <th>Test 1</th>
+            <th>Test 2</th>
+            <th>Test 3</th>
+            <th>Test 4</th>
+        </tr>
+
+        <!-- TABLE ROWS WITH DATA -->
+        <tr>
+            <td>Math</td>
+            <td>60</td>
+            <td>75</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>68</td>
+            <td>70</td>
+            <td>85</td>
+            <td>92</td>
+        </tr>
+
+        <tr>
+            <td>English</td>
+            <td>75</td>
+            <td>80</td>
+            <td>88</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Hindi</td>
+            <td>82</td>
+            <td>78</td>
+            <td>90</td>
+            <td>85</td>
+        </tr>
+
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

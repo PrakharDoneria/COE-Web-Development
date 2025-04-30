@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Signup - IEC Project</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+        <img src="https://urise.up.gov.in/resources/profile_image/1304_IEC_Logo.jpg" alt="IEC Logo" width="70" height="70">
+        <h1>College Login</h1>
+        
+        <form action="/create-new" method="post">
+
+            <label for="name">Enter your first name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Enter your college email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Create a strong password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="password-check">Confirm your password:</label>
+            <input type="password" id="password-check" name="password-check" required>
+
+            <div>
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember" style="display: inline;">Remember me</label>
+            </div>
+
+            <br>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+    </div>
+</body>
+</html>
